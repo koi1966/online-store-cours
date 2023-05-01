@@ -5,4 +5,10 @@ https://app.diagrams.net/
 
   npm install -D nodemon
 
+  npm i jsonwebtoken bcrypt
+
+
   npm run dev
+
+
+  https://jwt.io/#debugger-io
