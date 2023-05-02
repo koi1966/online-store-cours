@@ -12,3 +12,10 @@ https://app.diagrams.net/
 
 
   https://jwt.io/#debugger-io
+
+
+
+  cd client
+
+  npx create-react-app .
+
