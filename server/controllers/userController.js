@@ -48,13 +48,14 @@ class UserController {
     }
 
     async check(req, res, next) {
-        // const token = generateJwt(req.user.id, req.user.email, req.user.role)
-        // return res.json({token})
-        // const {id} = req.query
-        // if (!id){
-        //     return next(ApiError.badRequest('Не задан id: '))
-        // }
-        // res.json(id)
+        // res.json({message:"All working"})
+        const token = generateJwt(req.user.id, req.user.email, req.user.role)
+        return res.json({token})
+        const {id} = req.query
+        if (!id){
+            return next(ApiError.badRequest('Не задан id: '))
+        }
+        res.json(id)
     }
 }
 
