@@ -6,7 +6,9 @@ const App = () => {
     return (
         <BrowserRouter>
             <AppRouter />
-            1.12
+
+
+
         </BrowserRouter>
     );
 }
